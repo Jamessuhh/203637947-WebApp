@@ -26,6 +26,10 @@ img .container {
 height: 500px;
 }
 
+.video {
+margin-top: 10000px;
+}
+
 td{
     text-align: center;
 }
