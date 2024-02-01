@@ -15,10 +15,7 @@ ul {
     display: block;
     padding: 8px;
   }
-  body
-  {
-    background-color: rgb(126, 117, 117);
-  }
+  
   .container{
     height: 100px;
   }
@@ -26,8 +23,8 @@ img .container {
 height: 500px;
 }
 
-.video {
-margin-top: 10000px;
+.separation {
+  margin-top: 1000px;
 }
 
 td{
