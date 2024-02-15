@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+        <!-- navbar -->
+<header>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+</header>
+    <!-- content -->
+<div class="container">
+    <img src="https://i.pinimg.com/originals/a5/5b/37/a55b3788f7a508f6c6f8bda98258262f.jpg" alt="">
+    <form action="/action_page.php">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" value=""><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" value=""><br><br>
+         <input type="radio" id="male" name="gender" value="male">
+         <label for="male">Male</label><br>
+         <input type="radio" id="female" name="gender" value="female">
+         <label for="female">Female</label><br>
+         <input type="checkbox" id="terms" name="terms" value="terms">
+         <label for="terms"> I agree with the terms and conditions</label><br>
+        <input type="submit" value="Submit">
+      </form> 
+        <table style="width: 500px;">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+                <td>Los Angeles</td>
+            </tr>
+        </table>
+</div>
+<!-- video -->
+<div class="video" id="video">
+<video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+  </video>
+</div>
+  <!-- audio -->
+  <div class="audio">
+  <audio controls>
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+  </audio>
+</div>
+<!-- footer -->
+<footer>
+    <p>Copyright</p>
+  </footer>
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+</html>
