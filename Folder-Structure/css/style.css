@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    font-family: cursive;
+    color: lavender;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: pink;
+}
+
+li{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card{
+    background: transparent;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: gray;
+    border-radius: 0.3rem;
+}
+
+.list1{
+    font-family: fantasy;
+    color: black;
+}
+
+.list2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+.list3{
+    font-family: inherit;
+    color: red;
+}
